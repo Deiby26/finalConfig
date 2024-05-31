@@ -1,1 +1,3 @@
-window.alert('Universidad de Medellin');
+function miFuncion(){
+    window.alert("this is a new screen")
+}

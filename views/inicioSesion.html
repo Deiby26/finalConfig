@@ -8,20 +8,21 @@
 <body>
     <center>
         <h2>Inicio de Sesion</h2>
-        <form action="">
+        <form action="" id="miFormulario">
             <label for="">Correo</label>    
             <input type="email" placeholder="correo registrado" required>
             <br>
             <label for="">Contraseña</label>
             <input type="password" required>
             <br>
-            <button>Iniciar Sesion</button>
+            <button type="submit" id="submit">enviar</button>
             <br>
             ¿Aun no te has resgistrado? <a href="./registroUsuario.html">Registrate</a>
         </form>
         <button onclick="window.location='../main.html'">Home</button>
         
     </center>
+    <script src="../controller/inicioSesion.js"></script>
     
 </body>
 </html>
